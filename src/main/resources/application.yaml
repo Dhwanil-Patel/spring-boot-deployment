@@ -2,6 +2,12 @@ spring:
   application:
     name: spring-boot-deployment
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
 server:
   servlet:
     context-path: /api
