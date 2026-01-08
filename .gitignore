@@ -1,0 +1,119 @@
+# ---------------------------
+# Build System (Maven / Gradle)
+# ---------------------------
+
+target/
+build/
+out/
+*/*.iml
+
+# ---------------------------
+# IDE & Editor Files
+# ---------------------------
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Logs & Runtime Files
+# ---------------------------
+
+*.log
+logs/
+*.pid
+*.seed
+*.out
+
+# ---------------------------
+# Generated Files
+# ---------------------------
+
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# ---------------------------
+# Spring Boot
+# ---------------------------
+
+# Local config that must NEVER go to repo (enterprise rule)
+.env
+*.env
+
+# Embedded Server
+spring.log
+
+# ---------------------------
+# Security / Credentials
+# ---------------------------
+
+# DO NOT COMMIT
+*.key
+*.pem
+*.p12
+*.crt
+secret/
+secrets/
+config/keys/
+credentials.json
+
+# ---------------------------
+# Docker / Kubernetes
+# ---------------------------
+
+/docker-compose.override.yml
+/config/*.yaml
+*.dockerfile.local
+/.skaffold/
+
+# ---------------------------
+# Testing
+# ---------------------------
+
+# JUnit
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Jacoco / coverage
+jacoco.exec
+coverage/
+*.lcov
+
+# Mock data
+mock-data/
+
+# ---------------------------
+# Temporary / Cache
+# ---------------------------
+
+*.tmp
+*.cache
+*.swp
+*.swo
+
+# ---------------------------
+# Node (if UI included)
+# ---------------------------
+
+node_modules/
+dist/
+npm-debug.log
